@@ -1,0 +1,472 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: unset;
+  box-sizing: border-box;
+}
+* strong {
+  font-weight: 700;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #C61902;
+  background-image: url(../assets/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+html.o-hidden,
+body.o-hidden {
+  overflow: hidden;
+}
+html figure,
+body figure {
+  margin: 0;
+}
+
+button,
+a {
+  cursor: pointer;
+  opacity: 0.7;
+}
+@media screen and (max-width: 930px) {
+  button,
+  a {
+    opacity: 1;
+  }
+}
+
+button:hover,
+a:hover {
+  opacity: 1;
+}
+
+header img {
+  max-width: 100vw;
+  width: 100%;
+}
+header .bannerMob {
+  display: none;
+}
+@media screen and (max-width: 1120px) {
+  header .bannerDesk {
+    display: none;
+  }
+  header .bannerMob {
+    display: block;
+  }
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+main section .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+main section .main-content .main-title {
+  font-family: "Gotham";
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFD000;
+  white-space: pre-line;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+@media screen and (max-width: 930px) {
+  main section .main-content .main-title {
+    font-size: 30px;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main section .main-content .main-title {
+    font-size: 22px;
+    white-space: inherit;
+    width: 87%;
+  }
+}
+@media screen and (max-width: 510px) {
+  main section .main-content .main-title {
+    width: 97%;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  main section .main-content .main-title {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 385px) {
+  main section .main-content .main-title {
+    font-size: 16px;
+  }
+}
+main section .main-content .desc1 {
+  font-weight: bold;
+}
+main section .main-content .main-description {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  font-size: 22px;
+  margin: 10px auto;
+  white-space: pre-line;
+}
+@media screen and (max-width: 1400px) {
+  main section .main-content .main-description {
+    font-size: 20px;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  main section .main-content .main-description {
+    white-space: inherit;
+    margin: 0 20px 20px 20px;
+  }
+}
+@media screen and (max-width: 510px) {
+  main section .main-content .main-description {
+    font-size: 16px;
+    margin: 0 10px 20px 10px;
+  }
+}
+main section .main-content .main-footer-description {
+  font-family: "Gotham";
+  font-size: 26px;
+  font-weight: bold;
+  color: #FFD000;
+  white-space: pre-line;
+}
+@media screen and (max-width: 930px) {
+  main section .main-content .main-footer-description {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main section .main-content .main-footer-description {
+    font-size: 22px;
+    width: 95%;
+  }
+}
+main section .form-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 40px 40px 20px 40px;
+}
+@media screen and (max-width: 1250px) {
+  main section .form-section {
+    flex-direction: column-reverse;
+    margin: 20px 0 0 0px;
+  }
+}
+@media screen and (max-width: 475px) {
+  main section .form-section {
+    flex-direction: column-reverse;
+    margin: 20px;
+  }
+}
+main section .form-section #form-cadastro {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+@media screen and (max-width: 1250px) {
+  main section .form-section #form-cadastro {
+    margin: 40px auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  main section .form-section #form-cadastro {
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 630px) {
+  main section .form-section #form-cadastro {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 475px) {
+  main section .form-section #form-cadastro {
+    width: 100%;
+  }
+}
+main section .form-section #form-cadastro label .politica-privacidade-description {
+  font-family: "Montserrat", sans-serif;
+}
+@media screen and (max-width: 630px) {
+  main section .form-section #form-cadastro label .politica-privacidade-description {
+    white-space: unset;
+  }
+}
+main section .form-section #form-cadastro label .politica-privacidade-description a {
+  color: #FFFFFF !important;
+  opacity: 1 !important;
+}
+main section .form-section #form-cadastro label .politica-privacidade-description a:hover {
+  text-decoration: underline !important;
+}
+main section .form-section #form-cadastro span {
+  font-family: RidleyGrotesk-Regular;
+  font-size: 16px;
+  color: #FFFFFF;
+  white-space: pre-line;
+}
+main section .form-section #form-cadastro div fieldset {
+  margin: 20px auto;
+}
+main section .form-section #form-cadastro div fieldset input[type=text],
+main section .form-section #form-cadastro div fieldset select,
+main section .form-section #form-cadastro div fieldset option {
+  border: 1px solid #C61902;
+  background-color: #FFD000;
+  color: #C61902 !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold !important;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+main section .form-section #form-cadastro div fieldset select {
+  cursor: pointer;
+}
+main section .form-section #form-cadastro div fieldset input[type=checkbox] {
+  background-color: #FFD000;
+  border: #C61902;
+}
+main section .form-section #form-cadastro div fieldset input::-moz-placeholder {
+  font-weight: bold;
+  color: #C61902;
+}
+main section .form-section #form-cadastro div fieldset input::placeholder {
+  font-weight: bold;
+  color: #C61902;
+}
+main section .form-section #form-cadastro div fieldset .error {
+  font-family: "Montserrat", sans-serif;
+  color: #FFD000;
+  font-size: 10px;
+}
+main section .form-section #form-cadastro div fieldset .error-hidden {
+  font-family: "Montserrat", sans-serif;
+  display: none;
+}
+main section .form-section #form-cadastro div fieldset .invalid {
+  border: 1px solid #FFD000 !important;
+}
+main section .form-section #form-cadastro #btn-form {
+  font-family: "Gotham", sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #DE0A37;
+  border: 2px solid #DE0A37;
+  border-radius: 20px;
+  background-color: #FFD000;
+  padding: 5px 10px;
+  width: 350px;
+  opacity: 1 !important;
+  margin: auto;
+}
+@media screen and (max-width: 1250px) {
+  main section .form-section #form-cadastro #btn-form {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 475px) {
+  main section .form-section #form-cadastro #btn-form {
+    width: 280px;
+    font-size: 18px;
+  }
+}
+main section .form-section #form-cadastro button:hover {
+  opacity: 0.8 !important;
+}
+main section .form-section .error-hidden {
+  display: none;
+}
+main section .displays {
+  width: 450px;
+  height: 350px;
+}
+@media screen and (max-width: 680px) {
+  main section .displays {
+    width: 90%;
+    height: auto;
+  }
+}
+main section .compartilharSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main section .compartilharSection .footer-subtitle {
+  font-family: "Gotham", sans-serif;
+  font-size: 30px;
+  color: #FFD000;
+  white-space: pre-line;
+  text-align: center;
+  margin: 15px auto;
+}
+@media screen and (max-width: 768px) {
+  main section .compartilharSection .footer-subtitle {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  main section .compartilharSection .footer-subtitle {
+    font-size: 16px;
+  }
+}
+main section .icons-section .icons {
+  width: 30px;
+  margin: 20px;
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+footer section img {
+  width: 80px;
+  margin: 40px auto;
+}
+@media screen and (max-width: 768px) {
+  footer section img {
+    width: 50px;
+  }
+}
+footer section .footer-title {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+}
+footer section .icons-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer section .icons-footer .icons {
+  width: 30px;
+  margin: 20px 10px;
+}
+@media screen and (max-width: 600px) {
+  footer section .icons-footer .icons {
+    width: 20px;
+  }
+}
+footer section .footer-desc {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+  white-space: pre-line;
+  text-align: center;
+  margin: 0 auto 30px auto;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  transition: 400ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+}
+.modal.open {
+  opacity: 1;
+  visibility: visible;
+}
+.modal .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00032D;
+  color: #FFFFFF;
+  opacity: 0.9;
+  max-width: 700px;
+  width: 100%;
+  height: 380px;
+  border-radius: 30px;
+  position: relative;
+}
+@media screen and (max-width: 930px) {
+  .modal .container {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .modal .container {
+    max-width: 320px;
+    height: 280px;
+  }
+}
+.modal .container h1 {
+  font-family: Tongari-Regular;
+  font-size: 50px;
+  font-weight: normal !important;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+  .modal .container h1 {
+    font-size: 40px;
+  }
+}
+.modal .container span {
+  font-family: RidleyGrotesk-Regular;
+  font-size: 26px;
+  white-space: pre-line;
+}
+@media screen and (max-width: 600px) {
+  .modal .container span {
+    font-size: 16px;
+  }
+}
+.modal .container button img {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.raioPipeline {
+  width: 10%;
+  margin: 30px auto;
+}
+@media screen and (max-width: 1050px) {
+  .raioPipeline {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .raioPipeline {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .raioPipeline {
+    width: 60%;
+  }
+}/*# sourceMappingURL=style.css.map */
