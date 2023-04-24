@@ -90,7 +90,7 @@ main {
             text-align: center;
 
             .main-title {
-                font-family: 'Gotham';
+                font-family: "Gotham", sans-serif;
                 font-size: 40px;
                 font-weight: bold;
                 color: $yellowSp;
@@ -151,7 +151,7 @@ main {
             }
 
             .main-footer-description {
-                font-family: 'Gotham';
+                font-family: "Gotham", sans-serif;
                 font-size: 26px;
                 font-weight: bold;
                 color: $yellowSp;
@@ -288,7 +288,7 @@ main {
 
 
                     #btn-form {
-                        font-family: 'Gotham', sans-serif;
+                        font-family: "Gotham", sans-serif, sans-serif;
                         font-size: 22px;
                         font-weight: 900;
                         color: $red;
@@ -340,7 +340,7 @@ main {
             // box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
 
             .footer-subtitle {
-                font-family: 'Gotham', sans-serif;
+                font-family: "Gotham", sans-serif, sans-serif;
                 font-size: 30px;
                 color: $yellowSp;
                 white-space: pre-line;

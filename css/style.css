@@ -76,7 +76,7 @@ main section .main-content {
   text-align: center;
 }
 main section .main-content .main-title {
-  font-family: "Gotham";
+  font-family: "Gotham", sans-serif;
   font-size: 40px;
   font-weight: bold;
   color: #FFD000;
@@ -142,7 +142,7 @@ main section .main-content .main-description {
   }
 }
 main section .main-content .main-footer-description {
-  font-family: "Gotham";
+  font-family: "Gotham", sans-serif;
   font-size: 26px;
   font-weight: bold;
   color: #FFD000;
@@ -267,7 +267,7 @@ main section .form-section #form-cadastro div fieldset .invalid {
   border: 1px solid #FFD000 !important;
 }
 main section .form-section #form-cadastro #btn-form {
-  font-family: "Gotham", sans-serif;
+  font-family: "Gotham", sans-serif, sans-serif;
   font-size: 22px;
   font-weight: 900;
   color: #DE0A37;
@@ -313,7 +313,7 @@ main section .compartilharSection {
   justify-content: center;
 }
 main section .compartilharSection .footer-subtitle {
-  font-family: "Gotham", sans-serif;
+  font-family: "Gotham", sans-serif, sans-serif;
   font-size: 30px;
   color: #FFD000;
   white-space: pre-line;
